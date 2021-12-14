@@ -1,8 +1,4 @@
-const Dish = require('./dish.model')
 
-const Dishes = [new Dish()];
-
-const getAll = async () => Dishes;
 
 const getById = async (id) => Dishes.find((dish) => dish.id === id);
 
