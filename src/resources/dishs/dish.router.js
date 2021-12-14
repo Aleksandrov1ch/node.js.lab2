@@ -70,8 +70,7 @@ router.route('/:id').delete(
 
     if (!dish) {
       return res
-        .status(StatusCodes.NOT_FOUND)
-        .json({ code: 'DISH_NOT_FOUND', msg: 'Dish not found' });
+
     }
 
     return res
